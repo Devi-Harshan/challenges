@@ -31,7 +31,7 @@ const CardData = () => {
       templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
     >
       {data
-        .filter((e: IUserInterface, i: number) => i < 12)
+        .filter((e: IUserInterface, i: number) => i < 100)
         .map((dataFetched: IUserInterface) => (
           <Card key={dataFetched.id}>
             <CardBody>
